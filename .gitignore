@@ -1,15 +1,26 @@
+##.idea/workspace.xml
 *.iml
+
+## Gradle
 .gradle
-/local.properties
+
+## Android studio project
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+## macOS specific files
 .DS_Store
+
+## Build files
 /build
 /captures
 .externalNativeBuild
 .cxx
+
+## Local configuration
+/local.properties
 local.properties
