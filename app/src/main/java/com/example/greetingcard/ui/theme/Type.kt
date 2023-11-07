@@ -9,7 +9,7 @@ import androidx.compose.ui.unit.sp
 import com.example.greetingcard.R
 
 val modernistFamily = FontFamily(
-    Font(R.font.modernist_bold, weight =  FontWeight.Bold),
+    Font(R.font.modernist_bold, weight = FontWeight.Bold),
     Font(R.font.modernist_regular, weight = FontWeight.Normal),
     Font(R.font.modernist_mono)
 )

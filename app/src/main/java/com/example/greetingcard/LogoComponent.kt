@@ -15,7 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.greetingcard.ui.theme.DividerColor
+import com.example.greetingcard.ui.theme.StrokeColor
 
 @Composable
 fun LogoComponent() {
@@ -23,7 +23,7 @@ fun LogoComponent() {
         modifier = Modifier.size(size = 88.dp),
         shape = RoundedCornerShape(13.dp),
         colors = CardDefaults.cardColors(Color.Black),
-        border = BorderStroke(width = 3.dp, color = DividerColor),
+        border = BorderStroke(width = 3.dp, color = StrokeColor),
     ) {
         Box(
             modifier = Modifier.fillMaxSize(),
